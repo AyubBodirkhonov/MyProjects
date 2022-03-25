@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <!-- Boostrap 5.0 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/queries.css">
+
+    <title>Real Estate Landing Page</title>
+</head>
+<body>
+    <div class="wrapper">
+                                                     <!-- HEADER  -->
+       <header class="header">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-6">
+                        <a class="navbar_logo" href="#">
+                            <img src="./img/logo.png" alt="LOGO TYPE" class="img-fluid px-3" >
+                        </a>
+                    </div>
+                        <div class="col-6">
+                            <nav class="main-nav">
+                                <ul class="nav d-flex justify-content-between px-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link bold" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <!-- dropdown -->
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Properties
+                                        <ion-icon name="ios-arrow-down"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <!-- dropdown -->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <button class="btn-mobile-nav">
+                                <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+                                <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+       </header>
+
+                                                        <!-- SECTION 01 -->
+
+       <section class="section_01">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-8 col-lg-8 col-md-8 col-12">
+                        <h1 class="heading_1 px-4 pt-5">Temukan Hunian Keluarga <br>Sesuai Keinginanmu</h1>
+                        <p class="text px-4 py-4">Menyediakan hunian bagi keluarga anda dengan varian pilihan dan <br> lokasi yang strategis di kota anda dengan cara yang lebih mudah.</p>
+                        <div class="input-search mx-4">
+                            <i class="bi bi-geo-alt-fill" id="geo_icon"></i>
+                            <input type="text" class="input" placeholder="Search location, properties, residental group">
+                            <button class="btn-search">
+                                <a href="#">Search</a>
+                            </button>
+                        </div>
+                        <div class="row my-5 px-4 py-4">
+                            <div class="col-4 col-lg-4 col-md-4 px-3">
+                                <h2 class="heading_2">200<span class="plus">+</span></h2>
+                                <p class="text">Residental grup <br>telah bergabung</p>
+                            </div>
+                            <div class="col-4 col-lg-4 col-md-4 px-3">
+                                <h2 class="heading_2">10<span class="tahun">Tahun</span></h2>
+                                <p class="text">Sudah berpengalaman</p>
+                            </div>
+                            <div class="col-4 col-lg-4 col-md-4 px-3">
+                                <h2 class="heading_2">999<span class="plus">+</span></h2>
+                                <p class="text">Properti tersedia <br>di berbagai Kota</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="./img/img-1.png" alt="HOUSE 1" class="img-fluid disappear pe-4">
+                    </div>
+                </div>
+            </div>
+       </section>
+
+                                                         <!-- SECTION 02 -->
+
+       <section class="section_02">
+            <div class="container">
+                <div class="row py-5 d-flex justify-content-center">
+                    <div class="col py-5 px-4">
+                        <h3 class="heading_3">Tahapan Pembelian Properti<br> yang Mudah dan Cepat</h3>
+                    </div>
+                    <div class="row py-5 d-flex justify-content-between">
+                        <div class="col-xxl-3 col-lg-12 col-md-12 border_1 py-4 height" style="height: 330px; position: relative;">  
+                            <div class="bend"></div>  
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="heading_4 px-4 mb-0">Pilih Properti</h4>
+                                <p class="mb-0 color">01</p>
+                            </div>
+                            
+                            <p class="text p-4">Cari properti yang diinginkan<br> sesuai dengan kriteria anda<br> dan keluarga. Cara memilih <br>properti yang bijak dapat<br> anda baca lebih lanjut di sini</p>
+                            <div class="px-3">
+                                <button class="btn_1 btn_2"><a href="#">Baca lebih Lanjut</a><i class="bi bi-arrow-right px-2"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-lg-4 col-md-12 py-3 height  d-flex flex-column justify-content-between" style="height: 328px; position: relative;">
+                            <div class="bend"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="heading_4 px-4 mb-0">Proses Booking</h4>
+                                <p class="mb-0 color">02</p>
+                            </div>
+                           
+                            <p class="text p-4">Pembayaran dalam bentuk<br> sejumlah uang sebagai <br> komitmen memesan unit <br>properti tertentu.</p>
+                            <div class="px-3">
+                                <button class="btn_1 btn_2"><a href="#">Baca lebih Lanjut</a><i class="bi bi-arrow-right px-2"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-lg-4 col-md-12 py-4 height" style="height: 330px; position: relative;">
+                            <div class="bend"></div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="heading_4 px-4 mb-0">KPR dan Sertifikasi</h4>
+                                <p class="mb-0 color">03</p>
+                            </div>
+                            <p class="text p-4">Pembiayaan KPR untuk<br> pembeli rumah dengan <br>skema pembiayaan jika <br>diperlukan dan dilanjutkan <br>proses sertifkasi HGB.</p>   
+                            <div class="px-3">
+                                <button class="btn_1 btn_2 px-1"><a href="#">Baca lebih Lanjut</a><i class="bi bi-arrow-right px-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+                                                    <!-- SECTION 03 -->
+       <section class="section_03">
+           <div class="container">
+               <div class="row py-4 px-3  d-flex justify-content-between">
+                   <div class="row py-5">
+                       <div class="col">
+                            <h4 class="heading_4" style="color:#FF7527;">Pilihan konsumen</h4>
+                            <h3 class="heading_3">Residen Favorit</h3>
+                       </div>
+                   </div>
+                   <div class="col-xxl-6 col-lg-5 col-md-5 height_03" style="position: relative; height: 600px;">
+                        <div>
+                            <img src="./img/img-2.png" alt="House 2" class="img_house_2 img-fluid"> 
+                            <img src="./img/img-3.png" alt="House 3" class="img_house_3 img-fluid">
+                        </div>
+                   </div>
+                   <div class="col-xxl-6 col-lg-7 col-md-7">
+                        <h3 class="heading_3">Bangunan yang dirancang<br> oleh Aristektur Handal</h3>
+                        <p class="text my-4" style="color: #203239;">Tanpa diragukan, properti yang disediakan dalam webiste kami<br> merupakan hasil kerjasama secara profesional dengan para Arsitektur<br> ternama dan Developer yang terpercaya.</p>
+                        <div class="my_btn py-4">
+                            <button class="btn_3"><i class="bi bi-telephone-fill me-3"></i>Hubungi Kami</button>
+                            <button class="btn_4 mx-4">Explore lebih banyak</button>
+                        </div>
+                    </div>
+               </div>
+           </div>
+       </section>
+                                                <!-- SECTION 04 -->
+       <section class="section_04">
+           <div class="container">
+               <div class="row py-4 px-3">
+                <div class="row py-5">
+                    <div class="col col-md-5">
+                         <h4 class="heading_4" style="color:#FF7527;">Pilihan Auditor</h4>
+                         <h3 class="heading_3">Residen Berbagai Kota</h3>
+                    </div>
+                    <div class="col col-md-5 d-flex justify-content-end gx-5 mx-5 px-5">
+                        <button class="btn_box_1 mx-1">
+                            <ion-icon name="ios-arrow-back"></ion-icon>
+                        </button>
+                        <button class="btn_box_2 mx-3">
+                            <ion-icon name="ios-arrow-forward"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+                   <div class="col">
+                        <img src="./img/img-4.png" alt="House 4" class="img-fluid">
+                        <h5 class="heading_5 mt-4">Magnolia Surabaya</h5>
+                        <p class="text mt-3 size" style="color:#203239;">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008,<br> Jatake, Kec. Jatiuwung, Kota Tangerang,<br> Banten 15136</p>
+                   </div>
+                   <div class="col">
+                        <img src="./img/img-5.png" alt="House 5" class="img-fluid">
+                        <h5 class="heading_5 mt-4">Pinang Residences</h5>
+                        <p class="text mt-3 size" style="color:#203239;">
+                            Jl. Deplu Raya No.16 RT.5, RW.003
+                            Bintaro,<br> Pesanggrahan, Jakarta Selatan 12330
+                        </p>
+                   </div>
+                   <div class="col">
+                        <img src="./img/img-6.png" alt="House 6" class="img-fluid">
+                        <h5 class="heading_5 mt-4">South Grove</h5>
+                        <p class="text mt-3 size" style="color:#203239;">
+                            1 No.1, RT.1/RW.1, Lb. Bulus, Kec. Cilandak, Kota<br> Jakarta Selatan, Daerah Khusus Ibukota<br>Jakarta 12440
+                        </p>
+                   </div>
+               </div>
+           </div>
+       </section>
+                                                        <!-- FOOTER -->
+       <footer class="footer">
+            <div class="container">
+                <div class="row py-5 px-3">
+                    <div class="col-xxl-7 col-lg-7">
+                        <h4 class="heading_3">Hubungi Kami</h4>
+                        <div class="row my-5 px-3">
+                                 <div class="col-xxl-4 col-lg-5 col-md-4 col-9 p-3 border_2 ml">
+                                    <i class="bi bi-telephone-fill mt-3 me-2 width" style="font-size: 28px; color: #203239; float: left;"></i>
+                                    <div class="row">
+                                        <div class="col">
+                                            <address  class="address">
+                                                <p class="text" style="color: #203239; font-weight: 500;">call</p>
+                                                <a href="#" style="text-decoration: none; color: #203239;">+6281232936733</a>
+                                            </address>
+                                        </div>
+                                    </div>
+                                    <div class="footerCallNow">
+                                        <a href="#" class="footerLink mt-3">Call Now</a>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-5 col-lg-6 col-md-5 col-9 p-4 border_3 mx-3">                 
+                                    <img src="./img/Subtract.png" alt="Mail LOGO" class="img-fluid mt-3 me-2 img_mail" style="float: left;">
+                                    <div class="row">
+                                        <div class="col">
+                                            <address class="address">
+                                                <p class="text" style="color: #203239; font-weight: 500;">email</p>
+                                                <a href="#"  style="text-decoration: none; color: #203239;">omahindev@gmail.com</a>
+                                            </address>  
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="footerLink mt-2 ms-3">Email Now</a>
+                                    </div>
+                                </div>
+                         </div>
+                    </div>
+                    
+                    <div class="col-xxl-5 col-lg-5 ">
+                        <h4 class="heading_3 px-3">Penghargaan</h4>
+                        <div class="row mt-5 d-flex align-items-center">
+                            <div class="col-5">
+                                <img src="./img/logo-1.png" alt="Indonesia Property Logo" class="img-fluid">
+                            </div>
+                            <div class="col-7">
+                                <img src="./img/logo-2.png" alt="International Property awards" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-around align-items-center" style="background-color: #203239; height: 104px;">
+                    <div class="col-xxl-6 col-lg-6 col-md-6 col-3">
+                        <a href="#"><img src="./img/white_logo.png" alt="PAGE LOGO" class="img-fluid"></a>
+                    </div>
+                    <div class="col-xxl-3 col-lg-3 col-md-3 col-5 d-flex align-items-center justify-content-evenly">
+                        <a href="#"><i class="bi bi-instagram" style="color: #ffff;"></i></a>
+                        <a href="#"><i class="bi bi-facebook" style="color: #ffff;"></i></a>
+                        <a href="#" class="pt-1"><ion-icon name="logo-tumblr" style="color: #ffff;"></ion-icon></a>
+                        <a href="#"><i class="bi bi-linkedin" style="color: #ffff;"></i></a>
+                    </div>
+                </div>
+            </div>
+       </footer>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
